@@ -1,9 +1,0 @@
-Buat fitur CRUD:
-
-Mahasiswa (id, nim, nama , jurusan) - COMMIT
-Dosen (id, kode_dosen, nama)
-	COMMIT foreach feature (C, R, U, D)
-Mata Kuliah (id, kode_mtk, nama_mtk)
-	COMMIT foreach feature (C, R, U, D)
-
-Total: 9 Commit
