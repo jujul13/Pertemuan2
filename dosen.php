@@ -10,12 +10,13 @@ $hasil = mysqli_query($koneksi, $query);
 
 <h1>Data Dosen</h1>
 <a href="template.php?page=formdosen&action=add">Tambah Data</a>
-<table> 
+<table border="1"> 
 	<thead>
 		<tr>
 			<th>No.</th>
 			<th>Kode Dosen</th>
 			<th>Nama</th>
+			<th>Action</th>
 		</tr>
 	<thead>
 	<tbody>
