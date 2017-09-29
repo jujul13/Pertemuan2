@@ -4,23 +4,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Kalbis Institute</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" 
+	crossorigin="anonymous">
 	<style>
-		#header{background:yellow;}
-		#sidebar{background:orange;}
-		#footer{background:green;}
+		#header{background:#00FF00;}
+		#sidebar{background:yellow;}
+		#footer{background:cyan;}
 	</style>
 </head>
 <body>
 
-<div id="header"><h3>SIK | Sistem Informasi Kampus</h3></div>
+<div id="header"><h3>TIKKI | Teknik Informatika Kalbis Institute</h3></div>
 <div id="sidebar">
-	<a href="template.php?page=mahasiswa">Mahasiswa</a>
-	<a href="template.php?page=dosen">Dosen</a>
+	<a href="template.php?page=mahasiswa">Mahasiswa |</a>
+	<a href="template.php?page=dosen">Dosen |</a>
+	<a href="template.php?page=mata_kuliah">Mata Kuliah</a>
 	
 </div>
 
-<div id="konten"> INI ADALAH KONTEN
+<div id="konten"> DATA MAHASISWA & DOSEN KALBIS INSTITUTE
 
 <?php 
 include ($_GET['page'] . ".php");
